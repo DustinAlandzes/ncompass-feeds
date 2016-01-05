@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175b72ec-935a-48b2-ad5f-dbf22c281f02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NCompass/News.php" afterPath="$PROJECT_DIR$/app/NCompass/News.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
             <entry file="file://$PROJECT_DIR$/app/NCompass/News.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.31456953">
-                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                  <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
                   <folding>
                     <element signature="e#28#38#0#PHP" expanded="true" />
                   </folding>
@@ -502,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/app/NCompass/News.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31456953">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="e#28#38#0#PHP" expanded="true" />
           </folding>
