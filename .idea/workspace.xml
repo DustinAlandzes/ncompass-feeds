@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="175b72ec-935a-48b2-ad5f-dbf22c281f02" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RSSController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RSSController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" />
-    </list>
+    <list default="true" id="175b72ec-935a-48b2-ad5f-dbf22c281f02" name="Default" comment="" />
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
