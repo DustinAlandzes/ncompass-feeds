@@ -25,6 +25,11 @@ class RSSController extends Controller
             $atom = $rss->parse_rss($request->url, $request->limit);
             return view('news.index', compact('atom', 'request'));
         }
+        elseif($request->type == 'fb')
+        {
+            $fb = $rss->parse_fb($request->url, $request->limit);
+            return view('news.facebook', compact('fb', 'request'));
+        }
         else
         {
             abort(404, 'No type specified in URL (json or atom)');

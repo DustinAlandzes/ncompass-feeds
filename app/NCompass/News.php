@@ -30,8 +30,25 @@ class News
     public function parse_rss($url, $limit)
     {
         $rss = Feeds::make($url, $limit);
-        $limitedData = array_slice($rss->get_items(), 0, $limit);
+        $data = array_slice($rss->get_items(), 0, $limit);
 
-        return $limitedData;
+        return $data;
+    }
+
+    public function parse_fb($url, $limit)
+    {
+        $fb = Feeds::make($url, $limit);
+        $items = $fb->get_items();
+        $data = array_slice($items, -$limit);
+        $output = [];
+
+        foreach($data as $item)
+        {
+            $item = explode('/', $item->get_link()); // Split url
+            $item = $item[5]; // Get ID from URL
+            $output[] = 'https://graph.facebook.com/'.$item.'/picture';
+        }
+
+        return $output;
     }
 }
