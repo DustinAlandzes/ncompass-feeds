@@ -14,12 +14,10 @@ class RSSController extends Controller
     public function view(Request $request)
     {
         $rss = new rss();
-        $url = $request->url;
-        $fontSize = $request->font;
 
         $arr = $rss->parse($request->url);
         $data = array_slice($arr->response->results, 0, $request->limit);
 
-        return view('news.index', compact('data', 'font'));
+        return view('news.index', compact('data', 'request'));
     }
 }
