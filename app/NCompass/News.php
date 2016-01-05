@@ -11,14 +11,14 @@ class News
 
     public function parse_json($url, $limit)
     {
-        if (!Cache::has('json'))
+        if (!Cache::has($url))
         {
             $json = file_get_contents($url);
-            Cache::put('json', $json, $this->expiresAt);
+            Cache::put($url, $json, $this->expiresAt);
         }
         else
         {
-            $json = Cache::get('json');
+            $json = Cache::get($url);
         }
 
         $data = json_decode($json);
