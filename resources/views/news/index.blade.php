@@ -5,16 +5,19 @@ News
     @stop
 
 @section('body')
-    <body style="background: url({{$request->bg}}) no-repeat center center fixed;     -webkit-background-size: cover; !important
+    <body style="
+            background: url({{$request->bg}}) no-repeat center center fixed;
+            -webkit-background-size: cover; !important
             -moz-background-size: cover;!important
             -o-background-size: cover; !important
-            background-size: cover; !important">
+            background-size: cover; !important
+            ">
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
         <div class="row" style="margin-top: {{$request->margin}}%; !important">
-            <div>
+            <div style="color: {{$request->color}};">
             @if(isset($json))
                 @foreach($json as $item)
                     <p style="font-size:{{$request->font}}px">
