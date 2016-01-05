@@ -6,6 +6,6 @@ News
 
 @section('body')
     @foreach($data as $result)
-        <p>{{$result->webTitle}}</p>
+        <p style="font-size:{{$font}}}}">{{$result->webTitle}}</p>
     @endforeach
     @stop
