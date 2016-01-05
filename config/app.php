@@ -156,6 +156,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        willvincent\Feeds\FeedsServiceProvider::class,
+
     ],
 
     /*
@@ -200,7 +202,9 @@ return [
         'Storage'   => Illuminate\Support\Facades\Storage::class,
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View'      => Illuminate\Support\Facades\View::class
+        'View'      => Illuminate\Support\Facades\View::class,
+
+        'Feeds'     => willvincent\Feeds\Facades\FeedsFacade::class,
     ],
 
 ];

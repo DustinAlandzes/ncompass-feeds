@@ -15,9 +15,19 @@ class RSSController extends Controller
     {
         $rss = new rss();
 
-        $arr = $rss->parse($request->url);
-        $data = array_slice($arr->response->results, 0, $request->limit);
-
-        return view('news.index', compact('data', 'request'));
+        if($request->type == 'json')
+        {
+            $json = $rss->parse_json($request->url, $request->limit);
+            return view('news.index', compact('json', 'request'));
+        }
+        elseif($request->type == 'atom')
+        {
+            $atom = $rss->parse_rss($request->url, $request->limit);
+            return view('news.index', compact('atom', 'request'));
+        }
+        else
+        {
+            abort(404, 'No type specified in URL (json or atom)');
+        }
     }
 }

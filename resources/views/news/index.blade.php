@@ -13,13 +13,23 @@ News
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div class="row">
-            <div style="margin-top: {{$request->margin}}%">
-            @foreach($data as $result)
-                <p style="font-size:{{$request->font}}px">
-                    {{$result->webTitle}}
-                </p>
-            @endforeach
+        <div class="row" style="margin-top: {{$request->margin}}%; !important">
+            <div>
+            @if(isset($json))
+                @foreach($json as $item)
+                    <p style="font-size:{{$request->font}}px">
+                        {{$item->webTitle}}
+                    </p>
+                @endforeach
+            @elseif(isset($atom))
+                @foreach($atom as $item)
+                    <p style="font-size:{{$request->font}}px">
+                        {{$item->get_title()}}
+                    </p>
+                    @endforeach
+            @else
+                Error
+                @endif
             </div>
         </div>
     </div>
