@@ -41,7 +41,7 @@ return [
   |
   |
   */
-  'strip_html_tags.disabled'=> false,
+  'strip_html_tags.disabled'=> true,
 
   /*
   |--------------------------------------------------------------------------
