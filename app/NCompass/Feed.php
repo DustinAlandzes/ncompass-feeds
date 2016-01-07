@@ -26,7 +26,7 @@ class Feed {
 
     public function download()
     {
-        if(!Cache::has($this->url)) {
+        if (!Cache::has($this->url)) {
             $data = file_get_contents($this->url());
             Cache::put($this->url, $data);
         }

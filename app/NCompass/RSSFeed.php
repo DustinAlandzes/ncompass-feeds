@@ -2,6 +2,7 @@
 
 use Cache;
 use Feeds;
+
 class RSSFeed extends Feed {
 
     protected $view;
@@ -31,7 +32,12 @@ class RSSFeed extends Feed {
 
     public function download()
     {
-        return Feeds::make($this->url)->get_items();
+        if (!Cache::has($this->url)) {
+            $data = Feeds::make($this->url)->get_items();
+            Cache::put($this->url, $data, 3600);
+        }
+
+        return Cache::get($this->url);
     }
 
     public function toArray()

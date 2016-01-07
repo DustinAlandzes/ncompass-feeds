@@ -3,7 +3,7 @@
 use Cache;
 use Feeds;
 
-class AtomFeed extends Feed {
+class AtomFeed extends RSSFeed {
 
     /**
      * AtomFeed constructor.

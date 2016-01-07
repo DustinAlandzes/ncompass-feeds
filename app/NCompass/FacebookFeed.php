@@ -17,6 +17,7 @@ class FacebookFeed extends RSSFeed {
         $this->data = $this->download();
     }
 
+
     public function toArray()
     {
         $arr = [];
