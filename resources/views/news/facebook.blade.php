@@ -17,9 +17,9 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
         <div class="row">
-            @foreach($fb as $item)
+            @foreach($feed as $url)
             <div class="one-third column">
-                    <img src="{{$item}}" width="300px">
+                    <img src="{{$url}}" width="300px">
             </div>
             @endforeach
         </div>
