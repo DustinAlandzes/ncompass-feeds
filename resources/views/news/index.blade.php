@@ -18,21 +18,11 @@ News
     <div class="container">
         <div class="row" style="margin-top: {{$request->margin}}%; !important">
             <div style="color: {{$request->color}};">
-            @if(isset($json))
-                @foreach($json as $item)
+                @foreach($feed as $item)
                     <p style="font-size:{{$request->font}}px">
-                        {{$item->webTitle}}
+                        {{$item}}
                     </p>
                 @endforeach
-            @elseif(isset($atom))
-                @foreach($atom as $item)
-                    <p style="font-size:{{$request->font}}px">
-                        {{$item->get_title()}}
-                    </p>
-                    @endforeach
-            @else
-                Error
-                @endif
             </div>
         </div>
     </div>

@@ -25,9 +25,9 @@
 
 Route::group(['middleware' => ['web']], function () {
 
-    Route::get('/', 'RSSController@view');
+    Route::get('/', 'FeedController@view');
 
     Route::group(['prefix' => 'api'], function () {
-
+        Route::get('/', 'FeedController@parse');
     });
 });
