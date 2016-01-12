@@ -2,9 +2,6 @@
 
 namespace NCompass;
 
-use Cache;
-use Feeds;
-
 class FacebookFeed extends RSSFeed {
 
     /**

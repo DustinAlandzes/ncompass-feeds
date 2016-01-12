@@ -3,7 +3,6 @@
 namespace NCompass;
 
 use Cache;
-use Feeds;
 
 class Feed {
 

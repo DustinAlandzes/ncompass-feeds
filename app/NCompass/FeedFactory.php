@@ -1,9 +1,6 @@
 <?php
 namespace NCompass;
 
-use Cache;
-use Feeds;
-
 class FeedFactory
 {
     public static function create($url, $type = 'json')

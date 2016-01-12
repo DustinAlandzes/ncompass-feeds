@@ -17,14 +17,29 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
         <div class="row">
-            @foreach($feed as $url)
-            <div class="one-third column">
-                    <img src="{{$url}}" width="300px">
+            <div class="flexslider">
+                <ul class="slides">
+                    @foreach($feed as $url)
+                    <li>
+                        <img src="{{$url}}"/>
+                    </li>
+                    @endforeach
             </div>
-            @endforeach
         </div>
+
     </div>
 
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                slideshowSpeed: 3000,
+                pauseOnAction: false,
+                controlNav: false,
+                directionNav: false,
+
+            });
+        });
+    </script>
     <!-- End Document
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     </body>

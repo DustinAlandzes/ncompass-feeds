@@ -27,6 +27,10 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <!-- Place somewhere in the <head> of your document -->
+    <link rel="stylesheet" href="/css/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/js/jquery.flexslider-min.js"></script>
 </head>
 @yield('body')
 </html>

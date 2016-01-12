@@ -15,11 +15,11 @@ use NCompass\FacebookFeed as FacebookFeed;
 
 class FeedController extends Controller
 {
-
+    //Validate $request;
     public function view(Request $request)
     {
         $feed = Feed::create($request->url, $request->type);
-        $array = array_slice($feed->toArray(), -$request->limit);
+        $array = array_slice($feed->toArray(), 0, $request->limit);
         return view($feed->view())->with(['feed' => $array, 'request' => $request]);
     }
 

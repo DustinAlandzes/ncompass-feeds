@@ -1,8 +1,5 @@
 <?php namespace NCompass;
 
-use Cache;
-use Feeds;
-
 class AtomFeed extends RSSFeed {
 
     /**
