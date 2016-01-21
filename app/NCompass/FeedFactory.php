@@ -17,6 +17,10 @@ class FeedFactory
         {
             return new FacebookFeed($url);
         }
+        elseif ($type == 'toyota')
+        {
+            return new ImportIOFeed($url);
+        }
 
         return new RSSFeed($url);
     }
