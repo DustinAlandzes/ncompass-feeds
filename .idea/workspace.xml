@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175b72ec-935a-48b2-ad5f-dbf22c281f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/NCompass/ImportIOFeed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/news/facebook2.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/news/toyota.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NCompass/FacebookFeed.php" afterPath="$PROJECT_DIR$/app/NCompass/FacebookFeed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NCompass/Feed.php" afterPath="$PROJECT_DIR$/app/NCompass/Feed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/NCompass/FeedFactory.php" afterPath="$PROJECT_DIR$/app/NCompass/FeedFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/news/facebook.blade.php" afterPath="$PROJECT_DIR$/resources/views/news/facebook.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/news/facebook2.blade.php" afterPath="$PROJECT_DIR$/resources/views/news/facebook2.blade.php" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImportIOFeed.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/NCompass/ImportIOFeed.php">
+      <file leaf-file-name="facebook2.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34191704">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.2863568">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -74,15 +70,15 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/NCompass/AtomFeed.php" />
         <option value="$PROJECT_DIR$/app/NCompass/JSONFeed.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/NCompass/FeedFactory.php" />
+        <option value="$PROJECT_DIR$/resources/views/news/toyota.blade.php" />
+        <option value="$PROJECT_DIR$/app/NCompass/ImportIOFeed.php" />
+        <option value="$PROJECT_DIR$/app/NCompass/Feed.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FeedController.php" />
         <option value="$PROJECT_DIR$/resources/views/news/facebook.blade.php" />
         <option value="$PROJECT_DIR$/app/NCompass/FacebookFeed.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/news/facebook2.blade.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/FeedFactory.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/Feed.php" />
-        <option value="$PROJECT_DIR$/resources/views/news/toyota.blade.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/ImportIOFeed.php" />
       </list>
     </option>
   </component>
@@ -101,9 +97,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="x" value="1280" />
+    <option name="y" value="-443" />
+    <option name="width" value="1360" />
+    <option name="height" value="689" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -270,6 +267,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Middleware" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -359,17 +378,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="true" />
+    <frame x="1280" y="-443" width="1360" height="689" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29338235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35520685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35336193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -403,22 +422,39 @@
     <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/ImportIOFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <marker date="1453263514000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="68:209" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="79:207" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="94:195" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="232:1410" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="283:1313" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="330:422" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="461:580" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="638:1001" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="685:836" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="947:991" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="1019:1299" placeholder="/*...*/" />
-            <marker date="1453263514000" expanded="true" signature="1323:1394" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -426,21 +462,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1453263514000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="68:209" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="79:207" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="94:195" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="232:1410" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="283:1313" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="330:422" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="461:580" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="638:1001" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="685:836" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="947:991" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="1019:1299" placeholder="/*...*/" />
-            <marker date="1453263514000" expanded="true" signature="1323:1394" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,58 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FeedController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36194563">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/NCompass/FacebookFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3090129">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21030043">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <marker date="1453263514000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="68:209" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="79:207" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="94:195" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="232:1410" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="283:1313" placeholder="..." />
-            <marker date="1453263514000" expanded="true" signature="330:422" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="461:580" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="638:1001" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="685:836" placeholder="[...]" />
-            <marker date="1453263514000" expanded="true" signature="947:991" placeholder="{...}" />
-            <marker date="1453263514000" expanded="true" signature="1019:1299" placeholder="/*...*/" />
-            <marker date="1453263514000" expanded="true" signature="1323:1394" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/NCompass/RSSFeed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.032904148">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <marker date="1452148108000" expanded="false" signature="31:48" placeholder="..." />
-            <marker date="1452148108000" expanded="true" signature="78:915" placeholder="..." />
-            <marker date="1452148108000" expanded="true" signature="130:204" placeholder=" RSSFeed constructor. ..." />
-            <marker date="1452148108000" expanded="true" signature="244:360" placeholder="{...}" />
-            <marker date="1452148108000" expanded="true" signature="388:428" placeholder="{...}" />
-            <marker date="1452148108000" expanded="true" signature="456:496" placeholder="{...}" />
-            <marker date="1452148108000" expanded="true" signature="528:736" placeholder="{...}" />
-            <marker date="1452148108000" expanded="true" signature="573:689" placeholder="..." />
-            <marker date="1452148108000" expanded="true" signature="767:913" placeholder="{...}" />
-            <marker date="1452148108000" expanded="true" signature="834:884" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,30 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3090129">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1452198948000" expanded="true" signature="57:709" placeholder="..." />
-            <marker date="1452198948000" expanded="true" signature="109:184" placeholder=" JSONFeed constructor. ..." />
-            <marker date="1452198948000" expanded="true" signature="224:340" placeholder="{...}" />
-            <marker date="1452198948000" expanded="true" signature="368:408" placeholder="{...}" />
-            <marker date="1452198948000" expanded="true" signature="436:476" placeholder="{...}" />
-            <marker date="1452198948000" expanded="true" signature="507:707" placeholder="{...}" />
-            <marker date="1452198948000" expanded="true" signature="629:678" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/NCompass/Feed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7367668">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <marker date="1453419429000" expanded="true" signature="52:575" placeholder="..." />
-            <marker date="1453419429000" expanded="true" signature="82:152" placeholder=" Feed constructor. ..." />
-            <marker date="1453419429000" expanded="true" signature="192:231" placeholder="{...}" />
-            <marker date="1453419429000" expanded="true" signature="258:297" placeholder="{...}" />
-            <marker date="1453419429000" expanded="true" signature="329:573" placeholder="{...}" />
-            <marker date="1453419429000" expanded="true" signature="374:479" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,21 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42918456">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <marker date="1452134458000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="67:968" placeholder="..." />
-            <marker date="1452134458000" expanded="false" signature="85:378" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="379:962" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="390:466" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="496:866" placeholder="..." />
-            <marker date="1452134458000" expanded="false" signature="530:575" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="576:855" placeholder="..." />
-            <marker date="1452134458000" expanded="false" signature="602:629" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="630:840" placeholder="..." />
-            <marker date="1452134458000" expanded="false" signature="703:733" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="734:793" placeholder="..." />
-            <marker date="1452134458000" expanded="true" signature="877:948" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,14 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65808296">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <marker date="1453418900000" expanded="true" signature="44:523" placeholder="{...}" />
-            <marker date="1453418900000" expanded="true" signature="102:521" placeholder="{...}" />
-            <marker date="1453418900000" expanded="true" signature="137:196" placeholder="{...}" />
-            <marker date="1453418900000" expanded="true" signature="229:288" placeholder="{...}" />
-            <marker date="1453418900000" expanded="true" signature="319:382" placeholder="{...}" />
-            <marker date="1453418900000" expanded="true" signature="417:480" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,15 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40772533">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <marker date="1453247945000" expanded="true" signature="31:1307" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="38:1284" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="49:122" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="274:352" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="438:499" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="617:677" placeholder="..." />
-            <marker date="1453247945000" expanded="true" signature="842:927" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,19 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52646637">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <marker date="1451501574000" expanded="true" signature="21:1021" placeholder="..." />
-            <marker date="1451501574000" expanded="true" signature="32:839" placeholder="..." />
-            <marker date="1451501574000" expanded="true" signature="185:827" placeholder="..." />
-            <marker date="1451501574000" expanded="true" signature="210:255" placeholder="{...}" />
-            <marker date="1451501574000" expanded="true" signature="274:476" placeholder="{...}" />
-            <marker date="1451501574000" expanded="true" signature="501:629" placeholder="{...}" />
-            <marker date="1451501574000" expanded="true" signature="652:742" placeholder="{...}" />
-            <marker date="1451501574000" expanded="true" signature="763:811" placeholder="{...}" />
-            <marker date="1451501574000" expanded="true" signature="850:1013" placeholder="..." />
-            <marker date="1451501574000" expanded="true" signature="882:1001" placeholder="..." />
-            <marker date="1451501574000" expanded="true" signature="916:986" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,51 +729,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52646637">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="66" />
-          <folding>
-            <marker date="1453419992000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="67:1012" placeholder="..." />
-            <marker date="1453419992000" expanded="false" signature="85:378" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="379:1010" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="390:466" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="496:914" placeholder="..." />
-            <marker date="1453419992000" expanded="false" signature="530:575" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="576:903" placeholder="..." />
-            <marker date="1453419992000" expanded="false" signature="602:629" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="630:888" placeholder="..." />
-            <marker date="1453419992000" expanded="false" signature="718:748" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="749:841" placeholder="..." />
-            <marker date="1453419992000" expanded="true" signature="925:996" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49356222">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <marker date="1452632735000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="67:1233" placeholder="..." />
-            <marker date="1452632735000" expanded="false" signature="85:378" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="379:1231" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="390:466" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="496:814" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="522:802" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="559:787" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="595:757" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="664:736" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="867:1136" placeholder="..." />
-            <marker date="1452632735000" expanded="true" signature="903:1121" placeholder="{...}" />
-            <marker date="1452632735000" expanded="true" signature="945:1109" placeholder="{&quot;slideshowSpeed&quot;: 3000...}" />
-            <marker date="1452632735000" expanded="true" signature="1146:1217" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/NCompass/ImportIOFeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34191704">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state vertical-scroll-proportion="1.0509977">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71875">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52646637">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2761087">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/FacebookFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3104435">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/news/facebook2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2863568">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>

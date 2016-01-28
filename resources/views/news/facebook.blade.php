@@ -4,43 +4,75 @@
     News
 @stop
 
+@section('style')
+<style>
+    html body {
+        height: 100%;
+        background: url({{ $request->bg }}) no-repeat;
+        background-size: cover;
+        font-size:{{32*$request->fontsize}}px;
+        color: {{$request->fontcolor}}};
+    }
+
+    .slider {
+        margin-top: 125px;
+        height: 640px;
+    }
+</style>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+@stop
 @section('body')
-    <body style="
-            background: url({{$request->bg}}) no-repeat center center fixed;
-            -webkit-background-size: cover; !important
-            -moz-background-size: cover;!important
-            -o-background-size: cover; !important
-            background-size: cover; !important
-            ">
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div class="row">
-            <div class="flexslider">
-                <ul class="slides">
-                    @foreach($feed as $url)
+        <div class="slider">
+            <ul class="slides">
+                @foreach($feed as $url)
                     <li>
-                        <img src="{{$url}}"/>
+                        <img src="{{$url}}"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
                     </li>
-                    @endforeach
-            </div>
+                    "{{$url}}",
+                @endforeach
+            </ul>
         </div>
-
     </div>
-
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
-            $('.flexslider').flexslider({
-                slideshowSpeed: 3000,
-                pauseOnAction: false,
-                controlNav: false,
-                directionNav: false,
-
-            });
+        $(document).ready(function () {
+            $('.slider').slider({full_width: false, indicators: false, height: 480px});
         });
+        function setBackground(url)
+        {
+            $('#carousel').css('background', 'url('+url+') no-repeat center center');
+        }
+
+        var images =
+                [
+                    @foreach($feed as $url)
+                            "{{$url}}",
+                    @endforeach
+                ];
+        var current = 0;
+
+        setInterval(function(){
+            if(current < images.length)
+            {
+                setBackground(images[current]);
+                current++;
+            }
+            else
+            {
+                current = 0;
+            }
+        }, 1000);
+
     </script>
-    <!-- End Document
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    </body>
 @stop

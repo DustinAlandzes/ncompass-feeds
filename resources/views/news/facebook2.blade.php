@@ -6,20 +6,30 @@
 
 @section('style')
     <style>
-        html {
+        #carousel {
+            margin-top:200px;
+            height: 460px; !important
+            background-size: 100%;
+        }
+
+        html body {
             height: 100%;
+            background: url({{ $request->bg }}) no-repeat;
             background-size: cover;
-            font-size:64px;
+            font-size:{{32*$request->fontsize}}px;
+            color: {{$request->fontcolor}}};
         }
     </style>
 @stop
 
 @section('body')
+    <div id="carousel">
+    </div>
     <script type="text/javascript" charset="utf-8">
 
         function setBackground(url)
         {
-            $('html').css('background', 'url('+url+') no-repeat center center');
+            $('#carousel').css('background', 'url('+url+') no-repeat center center');
         }
 
         var images =
@@ -30,23 +40,6 @@
                 ];
         var current = 0;
 
-        setTimeout(function() {
-            var images =
-                    [
-                        @foreach($feed as $url)
-                                "{{$url}}",
-                        @endforeach
-                    ];
-
-            setBackground(images[current]);
-            current++;
-
-            if(current == images.length){
-                current = 0;
-            }
-        }, 1000);
-
-        /*
         setInterval(function(){
             if(current < images.length)
             {
@@ -58,10 +51,8 @@
                 current = 0;
             }
         }, 1000);
-        */
 
     </script>
     <!-- End Document
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    </body>
 @stop
