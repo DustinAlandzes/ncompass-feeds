@@ -1,27 +1,49 @@
-## Laravel PHP Framework
+## N-Compass TV Weather
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Description would go here
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Installation
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Installation would go here
 
-## Official Documentation
+## Usage
+After installing, you can start using different feeds:
+    
+_Example: Displaying a facebook feed (through inoreader)_
+```
+http://news.app/?type=fb&url=http://www.inoreader.com/stream/user/1005646937/tag/Primal%20Juice%20and%20Smoothies/
+```
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+_Example: Displaying a json feed_
+```
+http://news.app/?type=json&url=http://news.app/?url=http://news.google.com/news&type=atom
+```
 
-## Contributing
+_Example: Displaying a json feed, and limiting it to 3 items_
+```
+http://news.app/?type=json&url=http://news.app/?url=http://news.google.com/news&type=atom&limit=3
+```
+    
+## Options
+Options are specified with URL parameters.
+    
+###Limit
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+```
+    ?limit=3
+```
 
-## Security Vulnerabilities
+###Type
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+```
+    ?type=json
+    ?type=atom
+    ?type=rss
+    ?type=fb
+```
 
-### License
+###Background
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+```
+    ?background=example.com/image.png
+```
