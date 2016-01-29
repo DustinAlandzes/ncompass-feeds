@@ -6,15 +6,17 @@
 
 @section('style')
     <style>
-        #carousel {
+        #carousel
+        {
             margin-top:200px;
             height: 460px; !important
             background-size: 100%;
         }
 
-        html body {
+        html body
+        {
             height: 100%;
-            background: url({{ $request->bg }}) no-repeat;
+            background: url({{$request->bg}}) no-repeat;
             background-size: cover;
             font-size:{{32*$request->fontsize}}px;
             color: {{$request->fontcolor}}};
@@ -24,6 +26,7 @@
 
 @section('body')
     <div id="carousel">
+        <
     </div>
     <script type="text/javascript" charset="utf-8">
 
@@ -32,25 +35,32 @@
             $('#carousel').css('background', 'url('+url+') no-repeat center center');
         }
 
+        function startCarousel(images)
+        {
+            setBackground(images[0]);
+
+            var current = 0;
+            setInterval(function(){
+                if(current < images.length)
+                {
+                    setBackground(images[current]);
+                    current++;
+                }
+                else
+                {
+                    current = 0;
+                }
+            }, {{$request->time*1000}});
+        }
+
         var images =
                 [
                 @foreach($feed as $url)
                     "{{$url}}",
                 @endforeach
                 ];
-        var current = 0;
 
-        setInterval(function(){
-            if(current < images.length)
-            {
-                setBackground(images[current]);
-                current++;
-            }
-            else
-            {
-                current = 0;
-            }
-        }, 1000);
+        startCarousel(images);
 
     </script>
     <!-- End Document
