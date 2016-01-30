@@ -26,7 +26,10 @@
 
 @section('body')
     <div id="carousel">
-        <
+
+        @foreach($feed as $url)
+            <div class="images">{{$url}}</div>
+        @endforeach
     </div>
     <script type="text/javascript" charset="utf-8">
 
@@ -37,6 +40,7 @@
 
         function startCarousel(images)
         {
+            console.log(images[0]);
             setBackground(images[0]);
 
             var current = 0;
@@ -53,14 +57,14 @@
             }, {{$request->time*1000}});
         }
 
-        var images =
-                [
-                @foreach($feed as $url)
-                    "{{$url}}",
-                @endforeach
-                ];
+        var arr = [];
+        var images = $( ".images" ).each(function( index ) {
+            var url = $(this).text();
+            console.log(url);
+            arr.push($(this).text());
+        });
 
-        startCarousel(images);
+        startCarousel(arr);
 
     </script>
     <!-- End Document
