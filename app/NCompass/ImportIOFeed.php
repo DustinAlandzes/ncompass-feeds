@@ -22,7 +22,7 @@ class ImportIOFeed extends JSONFeed
     public function __construct($url)
     {
         $this->url = 'https://api.import.io/store/connector/4029d854-2a10-46b5-a12b-cbe03b998e51/_query?input=webpage/url:http%3A%2F%2Fwww.toyotaofcleveland.com%2Fused-cars-mcdonald-tn&&_apikey=37f77821fb514ae4b4a394e4fe1cacc245ea170e8c36e75eaa2f7885395de118cf7c8292fe8f7488e59bee84d6137689fe9097807cfb1f8c76a12ed263f08fecbe37ea6eaa527784e8bd318b92b94125';
-        $this->view = 'news.facebook';
+        $this->view = 'feeds.facebook';
         $this->data = $this->download();
     }
 

@@ -32,8 +32,7 @@ class Feed {
             $data = file_get_contents($this->url());
             Cache::put($this->url, $data, $expiresAt);
         }
-        //fix pls
-        return file_get_contents($this->url());
+
         return Cache::get($this->url);
     }
 
