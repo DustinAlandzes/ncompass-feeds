@@ -3,6 +3,7 @@
 namespace NCompass;
 
 use Cache;
+use Carbon\Carbon;
 
 class Feed {
 
@@ -25,9 +26,11 @@ class Feed {
 
     public function download()
     {
+        $expiresAt = Carbon::now()->addHour();
+
         if (!Cache::has($this->url)) {
             $data = file_get_contents($this->url());
-            Cache::put($this->url, $data);
+            Cache::put($this->url, $data, $expiresAt);
         }
 
         return Cache::get($this->url);

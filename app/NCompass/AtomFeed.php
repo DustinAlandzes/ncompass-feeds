@@ -10,7 +10,7 @@ class AtomFeed extends RSSFeed {
     public function __construct($url)
     {
         $this->url = $url;
-        $this->view = 'news.index';
+        $this->view = 'feeds.index';
         $this->data = $this->download();
     }
 }

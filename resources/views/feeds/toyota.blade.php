@@ -16,30 +16,17 @@
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div class="row">
-            <div class="flexslider">
-                <ul class="slides">
-                    @foreach($feed as $url)
-                    <li>
-                        <img src="{{$url}}"/>
-                    </li>
-                    @endforeach
+        <div class="row" style="margin-top: {{$request->margin}}%; !important">
+            <div style="color: {{$request->color}};">
+                @foreach($feed['car'] as $key => $item)
+                    <p style="font-size:{{$request->font}}px">
+                        {{$item[$key]}} - {{$feed['price'][$key]}}
+                    </p>
+                @endforeach
             </div>
         </div>
-
     </div>
 
-    <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
-            $('.flexslider').flexslider({
-                slideshowSpeed: 3000,
-                pauseOnAction: false,
-                controlNav: false,
-                directionNav: false,
-
-            });
-        });
-    </script>
     <!-- End Document
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     </body>

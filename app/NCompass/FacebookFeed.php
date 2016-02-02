@@ -10,7 +10,7 @@ class FacebookFeed extends RSSFeed {
     public function __construct($url)
     {
         $this->url = $url;
-        $this->view = 'news.facebook';
+        $this->view = 'feeds.inoreader';
         $this->data = $this->download();
     }
 
