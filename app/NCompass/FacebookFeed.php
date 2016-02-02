@@ -21,8 +21,12 @@ class FacebookFeed extends RSSFeed {
 
         foreach($this->data() as $item){
             $url = $item->get_link();
-            $id = $this->getPostIdFromPostUrl($url);
-            $arr[] = $this->getImageUrlfromPostId($id);
+            $description = $item->get_title();
+            $postId = $this->getPostIdFromPostUrl($url);
+            $arr[] = [
+                'url' => $this->getImageUrlfromPostId($postId),
+                'description' => $description
+            ];
         }
         return $arr;
     }

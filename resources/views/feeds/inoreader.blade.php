@@ -13,41 +13,67 @@
             background-size: 100%;
         }
 
+        #description
+        {
+            @if(!$request->description)
+                visibility: hidden;
+            @endif
+            min-height: 200px;
+            max-height: 200px;
+            max-width: 640px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
         html body
         {
             height: 100%;
             background: url({{$request->bg}}) no-repeat;
             background-size: cover;
-            font-size:{{32*$request->fontsize}}px;
-            color: {{$request->fontcolor}}};
+            font-size:{{$request->fontsize}}px;
+            color: {{$request->fontcolor}};
+            overflow: hidden;
         }
     </style>
 @stop
 
 @section('body')
     <div id="carousel">
-
-        @foreach($feed as $url)
-            <div class="images">{{$url}}</div>
+        @foreach($feed as $item)
+            <div class="image" data-url="{{$item['url']}}" data-description="{{$item['description']}}">
+            </div>
         @endforeach
+    </div>
+    <div id="description">
     </div>
     <script type="text/javascript" charset="utf-8">
 
         function setBackground(url)
         {
+            $('#carousel').hide();
             $('#carousel').css('background', 'url('+url+') no-repeat center center');
+            $('#carousel').show();
         }
 
-        function startCarousel(images)
+        function setDescription(description)
         {
-            console.log(images[0]);
-            setBackground(images[0]);
+            $('#description').text(description)
+        }
+
+        function startCarousel(imageUrls, imageDescriptions)
+        {
+            console.log(imageUrls);
+            console.log(imageDescriptions);
+
+            setBackground(imageUrls[0]);
+            setDescription(imageDescriptions[0]);
 
             var current = 0;
             setInterval(function(){
-                if(current < images.length)
+                if(current < imageUrls.length)
                 {
-                    setBackground(images[current]);
+                    setBackground(imageUrls[current]);
+                    setDescription(imageDescriptions[current]);
                     current++;
                 }
                 else
@@ -57,14 +83,18 @@
             }, {{$request->time*1000}});
         }
 
-        var arr = [];
-        var images = $( ".images" ).each(function( index ) {
-            var url = $(this).text();
-            console.log(url);
-            arr.push($(this).text());
-        });
+        $(document).ready(function() {
+            var urls = [], descriptions = [];
 
-        startCarousel(arr);
+            $( ".image" ).each(function( index ) {
+                var url = $(this).attr('data-url');
+                var description = $(this).attr('data-description');
+                urls.push(url);
+                descriptions.push(description);
+            });
+
+            startCarousel(urls, descriptions);
+        });
 
     </script>
     <!-- End Document
