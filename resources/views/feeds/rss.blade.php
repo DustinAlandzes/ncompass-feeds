@@ -3,7 +3,20 @@
 @section('title')
     News
 @stop
+@section('style')
+    <style>
 
+        html body
+        {
+            height: 100%;
+            background: url({{$request->bg}}) no-repeat;
+            background-size: cover;
+            font-size:{{$request->fontsize}}px;
+            color: {{$request->fontcolor}};
+            overflow: hidden;
+        }
+    </style>
+@stop
 @section('body')
     <body style="
             background: url({{$request->bg}}) no-repeat center center fixed;
@@ -16,14 +29,12 @@
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div class="row" style="margin-top: {{$request->margin}}%; !important">
-            <div style="color: {{$request->color}};">
-                @foreach($feed['car'] as $key => $item)
-                    <p style="font-size:{{$request->font}}px">
-                        {{$item[$key]}} - {{$feed['price'][$key]}}
-                    </p>
-                @endforeach
-            </div>
+        <div style="color: {{$request->color}};">
+            @foreach($feed as $key => $item)
+                <p>
+                    {{$item}}
+                </p>
+            @endforeach
         </div>
     </div>
 
