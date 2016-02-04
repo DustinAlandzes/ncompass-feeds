@@ -1,4 +1,4 @@
-## N-Compass TV Weather
+## N-Compass TV Feeds
 
 Description would go here
 
