@@ -11,7 +11,7 @@ class FeedFactory
         }
         elseif ($type == 'atom')
         {
-            return new AtomFeed($url);
+            return new RSSFeed($url);
         }
         elseif ($type == 'fb')
         {
@@ -22,6 +22,7 @@ class FeedFactory
             return new ImportIOFeed($url);
         }
 
-        return new RSSFeed($url);
+
+        return new AtomFeed($url);
     }
 }
