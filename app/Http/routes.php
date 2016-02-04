@@ -26,7 +26,7 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', 'FeedController@view');
-
+    Route::resource('feed', 'FeedsController@create');
     Route::group(['prefix' => 'api'], function () {
         Route::get('/', 'FeedController@parse');
     });

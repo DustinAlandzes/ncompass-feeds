@@ -157,6 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         willvincent\Feeds\FeedsServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -205,6 +206,8 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
 
         'Feeds'     => willvincent\Feeds\Facades\FeedsFacade::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
     ],
 
 ];

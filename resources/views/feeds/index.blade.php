@@ -1,33 +1,78 @@
 @extends('app')
 
 @section('title')
-News
-    @stop
+    News
+@stop
+
+@section('style')
+    <style>
+        #carousel
+        {
+            margin-top:10px;
+            margin-bottom:10px;
+            max-height: 100px; !important
+            background-size: 100%;
+        }
+
+        html body
+        {
+            height: 100%;
+            background: url({{$request->bg}}) no-repeat;
+            background-size: cover;
+            font-size:{{$request->fontsize}}px;
+            color: {{$request->fontcolor}};
+            overflow: hidden;
+        }
+    </style>
+@stop
 
 @section('body')
-    <body style="
-            background: url({{$request->bg}}) no-repeat center center fixed;
-            -webkit-background-size: cover; !important
-            -moz-background-size: cover;!important
-            -o-background-size: cover; !important
-            background-size: cover; !important
-            ">
-
-    <!-- Primary Page Layout
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row" style="margin-top: {{$request->margin}}%; !important">
-            <div style="color: {{$request->color}};">
-                @foreach($feed as $item)
-                    <p style="font-size:{{$request->font}}px">
-                        {{$item}}
-                    </p>
-                @endforeach
-            </div>
+    @foreach($feed as $item)
+        <div class="image" data-content="{{$item}}">
         </div>
+    @endforeach
+    <div id="carousel">
     </div>
+    <script type="text/javascript" charset="utf-8">
 
+        function setContent(content)
+        {
+            $('#carousel').hide();
+            $('#carousel').text(content);
+            $('#carousel').show();
+        }
+
+        function startCarousel(items)
+        {
+
+            setContent(items[0]);
+
+            var current = 0;
+            setInterval(function(){
+                if(current < items.length)
+                {
+                    setContent(items[current]);
+                    current++;
+                }
+                else
+                {
+                    current = 0;
+                }
+            }, {{$request->time*1000}});
+        }
+
+        $(document).ready(function() {
+            var items = [];
+
+            $( ".image" ).each(function( index ) {
+                var content = $(this).attr('data-content');
+                items.push(content);
+            });
+
+            startCarousel(items);
+        });
+
+    </script>
     <!-- End Document
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    </body>
-    @stop
+@stop

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175b72ec-935a-48b2-ad5f-dbf22c281f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feeds/resources/views/feeds/rss.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feeds/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../feeds/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feeds/app/NCompass/FacebookFeed.php" afterPath="$PROJECT_DIR$/../feeds/app/NCompass/FacebookFeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php" afterPath="$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="inoreader.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/feeds/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3432836">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.5216495">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -47,41 +44,48 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../feeds" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php.html" />
-        <option value="$PROJECT_DIR$/resources/views/app.html" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/spec/NCompass/NewsSpec.php" />
-        <option value="$PROJECT_DIR$/phpspec.yml" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/tests/spec/NCompass/NewsSpec.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/vendor/willvincent/feeds/src/config/feeds.php" />
-        <option value="$PROJECT_DIR$/public/css/news.css" />
-        <option value="$PROJECT_DIR$/resources/views/news/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/News.php" />
-        <option value="$PROJECT_DIR$/config/feeds.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/RSSFeed.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RSSController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/AtomFeed.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/JSONFeed.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/FeedFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/news/toyota.blade.php" />
-        <option value="$PROJECT_DIR$/app/NCompass/ImportIOFeed.php" />
+        <option value="$PROJECT_DIR$/../news/resources/views/app.blade.php.html" />
+        <option value="$PROJECT_DIR$/../news/resources/views/app.html" />
+        <option value="$PROJECT_DIR$/../news/composer.json" />
+        <option value="$PROJECT_DIR$/../news/app/spec/NCompass/NewsSpec.php" />
+        <option value="$PROJECT_DIR$/../news/phpspec.yml" />
+        <option value="$PROJECT_DIR$/../news/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../news/tests/spec/NCompass/NewsSpec.php" />
+        <option value="$PROJECT_DIR$/../news/config/app.php" />
+        <option value="$PROJECT_DIR$/../news/vendor/willvincent/feeds/src/config/feeds.php" />
+        <option value="$PROJECT_DIR$/../news/public/css/news.css" />
+        <option value="$PROJECT_DIR$/../news/resources/views/news/index.blade.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/News.php" />
+        <option value="$PROJECT_DIR$/../news/config/feeds.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/RSSFeed.php" />
+        <option value="$PROJECT_DIR$/../news/app/Http/Controllers/RSSController.php" />
+        <option value="$PROJECT_DIR$/../news/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/AtomFeed.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/JSONFeed.php" />
+        <option value="$PROJECT_DIR$/../news/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/FeedFactory.php" />
+        <option value="$PROJECT_DIR$/../news/resources/views/news/toyota.blade.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/ImportIOFeed.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/Feed.php" />
+        <option value="$PROJECT_DIR$/../news/app/Http/Controllers/FeedController.php" />
+        <option value="$PROJECT_DIR$/../news/resources/views/news/facebook.blade.php" />
+        <option value="$PROJECT_DIR$/../news/app/NCompass/FacebookFeed.php" />
+        <option value="$PROJECT_DIR$/../news/resources/views/news/facebook2.blade.php" />
         <option value="$PROJECT_DIR$/app/NCompass/Feed.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FeedController.php" />
-        <option value="$PROJECT_DIR$/resources/views/news/facebook.blade.php" />
         <option value="$PROJECT_DIR$/app/NCompass/FacebookFeed.php" />
-        <option value="$PROJECT_DIR$/resources/views/news/facebook2.blade.php" />
-        <option value="$PROJECT_DIR$/../feeds/app/NCompass/Feed.php" />
-        <option value="$PROJECT_DIR$/../feeds/app/NCompass/FacebookFeed.php" />
-        <option value="$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/feeds/inoreader.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FeedsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_02_231443_create_feeds_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/feeds/index.blade.php" />
       </list>
     </option>
   </component>
@@ -91,7 +95,7 @@
     <detection-done>true</detection-done>
     <gulpfiles>
       <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/../feeds/gulpfile.js</gulpfile-path>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
   </component>
@@ -130,8 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +236,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Policies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="NCompass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -289,12 +311,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../feeds/resources/views/feeds" />
-      <recent name="$PROJECT_DIR$/../feeds/resources/views/feeds/import.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/css" />
+      <recent name="$PROJECT_DIR$/../news/public/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/feeds" />
+      <recent name="$PROJECT_DIR$/resources/views/feeds/import.io" />
     </key>
   </component>
   <component name="RunManager">
@@ -345,23 +367,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29338235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35131398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -377,313 +399,323 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/FeedsController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/RSSFeed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <folding />
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding>
+            <marker date="1454615616000" expanded="true" signature="31:48" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="78:916" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="130:204" placeholder=" RSSFeed constructor. ..." />
+            <marker date="1454615616000" expanded="true" signature="244:361" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="389:429" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="457:497" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="529:737" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="574:690" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="768:914" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="835:885" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/ImportIOFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/inoreader.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454452234000" expanded="true" signature="34:44" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="68:802" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="79:800" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="107:221" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="252:508" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="536:788" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="825:2650" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="848:1035" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="985:1004" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1062:1073" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1125:2565" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1172:1339" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1394:1453" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1524:2137" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1762:2100" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1827:1996" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2034:2086" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2176:2549" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2274:2489" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2575:2646" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/JSONFeed.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/JSONFeed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.env">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.env">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/RSSFeed.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/RSSFeed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/public/css/news.css">
+    <entry file="file://$PROJECT_DIR$/public/css/news.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/config/app.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="205" column="43" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24370861">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/tests/ExampleTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/tests/TestCase.php">
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/package.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45938748">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/phpspec.yml">
+    <entry file="file://$PROJECT_DIR$/phpspec.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1374502">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/tests/spec/NCompass/NewsSpec.php">
+    <entry file="file://$PROJECT_DIR$/tests/spec/NCompass/NewsSpec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41956884">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031811897">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/vendor/willvincent/feeds/src/config/feeds.php">
+    <entry file="file://$PROJECT_DIR$/vendor/willvincent/feeds/src/config/feeds.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41887417">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/public/css/news.css">
+    <entry file="file://$PROJECT_DIR$/public/css/news.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2756325">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/config/cache.php">
+    <entry file="file://$PROJECT_DIR$/config/cache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3302064">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54625">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/config/feeds.php">
+    <entry file="file://$PROJECT_DIR$/config/feeds.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22375">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.env.example">
+    <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5741086">
-          <caret line="204" column="62" selection-start-line="204" selection-start-column="62" selection-end-line="204" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/.env">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30625832">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/AtomFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2724679">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/public/css/fonts/flexslider-icon.svg">
+    <entry file="file://$PROJECT_DIR$/public/css/fonts/flexslider-icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29529244">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/RSSFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.032904148">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52646637">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43055555">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.011574074">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/Requests/FeedRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/FeedRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/Requests/Request.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5324074">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/import.io/toyota.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0298507">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6076759">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80383795">
+          <caret line="209" column="52" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26987448">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/JSONFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27824268">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <marker date="1454446673000" expanded="false" signature="9:383" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="390:767" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="784:981" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="824:980" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="888:977" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="922:976" placeholder="..." />
+            <marker date="1454446673000" expanded="true" signature="57:710" placeholder="..." />
+            <marker date="1454446673000" expanded="true" signature="109:184" placeholder=" JSONFeed constructor. ..." />
+            <marker date="1454446673000" expanded="true" signature="224:341" placeholder="{...}" />
+            <marker date="1454446673000" expanded="true" signature="369:409" placeholder="{...}" />
+            <marker date="1454446673000" expanded="true" signature="437:477" placeholder="{...}" />
+            <marker date="1454446673000" expanded="true" signature="508:708" placeholder="{...}" />
+            <marker date="1454446673000" expanded="true" signature="630:679" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/toyota.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/toyota.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8336887">
+        <state vertical-scroll-proportion="0.54080224">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <marker date="1454446673000" expanded="true" signature="34:44" placeholder="..." />
@@ -703,10 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/import.io/toyota.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/rss.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44536653">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <marker date="1454446673000" expanded="true" signature="34:44" placeholder="..." />
             <marker date="1454446673000" expanded="true" signature="67:1012" placeholder="..." />
@@ -725,24 +757,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/FeedFactory.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/ImportIOFeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65884864">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <marker date="1454446673000" expanded="true" signature="44:523" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="102:521" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="137:196" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="229:288" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="319:382" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="417:480" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/ImportIOFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0298507">
+        <state vertical-scroll-proportion="0.90515465">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <marker date="1454446673000" expanded="false" signature="9:82" placeholder=" Created by PhpStorm. ..." />
@@ -755,76 +772,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/rss.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/Feed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5278351">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <marker date="1454446673000" expanded="true" signature="34:44" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="67:1012" placeholder="..." />
-            <marker date="1454446673000" expanded="false" signature="85:378" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="379:1010" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="390:466" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="496:914" placeholder="..." />
-            <marker date="1454446673000" expanded="false" signature="530:575" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="576:903" placeholder="..." />
-            <marker date="1454446673000" expanded="false" signature="602:629" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="630:888" placeholder="..." />
-            <marker date="1454446673000" expanded="false" signature="718:748" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="749:841" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="925:996" placeholder="..." />
+            <marker date="1454615616000" expanded="false" signature="32:57" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="71:607" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="101:171" placeholder=" Feed constructor. ..." />
+            <marker date="1454615616000" expanded="true" signature="211:250" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="277:316" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="348:605" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="441:558" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/Http/Controllers/FeedController.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/FacebookFeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46055436">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <marker date="1454446673000" expanded="true" signature="44:310" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="351:857" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="421:647" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="692:854" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/Feed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5735608">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <marker date="1454447812000" expanded="false" signature="32:57" placeholder="..." />
-            <marker date="1454447812000" expanded="true" signature="71:607" placeholder="..." />
-            <marker date="1454447812000" expanded="true" signature="101:171" placeholder=" Feed constructor. ..." />
-            <marker date="1454447812000" expanded="true" signature="211:250" placeholder="{...}" />
-            <marker date="1454447812000" expanded="true" signature="277:316" placeholder="{...}" />
-            <marker date="1454447812000" expanded="true" signature="348:605" placeholder="{...}" />
-            <marker date="1454447812000" expanded="true" signature="441:558" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/JSONFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.04904051">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1454446673000" expanded="true" signature="57:710" placeholder="..." />
-            <marker date="1454446673000" expanded="true" signature="109:184" placeholder=" JSONFeed constructor. ..." />
-            <marker date="1454446673000" expanded="true" signature="224:341" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="369:409" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="437:477" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="508:708" placeholder="{...}" />
-            <marker date="1454446673000" expanded="true" signature="630:679" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/app/NCompass/FacebookFeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50959486">
+        <state vertical-scroll-proportion="0.5113402">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <marker date="1454449305000" expanded="true" signature="64:995" placeholder="..." />
@@ -839,10 +805,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../feeds/resources/views/feeds/inoreader.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/NCompass/AtomFeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3432836">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.19381443">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1454615616000" expanded="true" signature="59:301" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="68:143" placeholder=" AtomFeed constructor. ..." />
+            <marker date="1454615616000" expanded="true" signature="183:246" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="293:300" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="422:472" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/FeedFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8103093">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <marker date="1454615616000" expanded="true" signature="44:523" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="102:521" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="137:196" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="229:288" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="319:382" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="417:480" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="504:564" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47835052">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1454615616000" expanded="true" signature="44:310" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="351:857" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="421:647" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="692:854" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NCompass/RSSFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5690722">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1454615616000" expanded="true" signature="31:48" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="78:916" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="130:204" placeholder=" RSSFeed constructor. ..." />
+            <marker date="1454615616000" expanded="true" signature="244:361" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="389:429" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="457:497" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="529:737" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="574:690" placeholder="..." />
+            <marker date="1454615616000" expanded="true" signature="768:914" placeholder="{...}" />
+            <marker date="1454615616000" expanded="true" signature="835:885" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/inoreader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6041237">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding>
+            <marker date="1454452234000" expanded="true" signature="34:44" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="68:802" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="79:800" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="107:221" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="252:508" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="536:788" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="825:2650" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="848:1035" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="985:1004" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1062:1073" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1125:2565" placeholder="..." />
+            <marker date="1454452234000" expanded="true" signature="1172:1339" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1394:1453" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1524:2137" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1762:2100" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="1827:1996" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2034:2086" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2176:2549" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2274:2489" placeholder="{...}" />
+            <marker date="1454452234000" expanded="true" signature="2575:2646" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/feeds/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5216495">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
