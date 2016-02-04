@@ -8,21 +8,10 @@
     <style>
         #carousel
         {
-            margin-top:200px;
-            height: 460px; !important
-        background-size: 100%;
-        }
-
-        #description
-        {
-            @if(!$request->description)
-                visibility: hidden;
-            @endif
-            min-height: 200px;
-            max-height: 200px;
-            max-width: 640px;
-            margin: 0 auto;
-            overflow: hidden;
+            margin-top:10px;
+            margin-bottom:10px;
+            max-height: 100px; !important
+            background-size: 100%;
         }
 
         html body
