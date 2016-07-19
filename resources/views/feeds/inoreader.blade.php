@@ -91,17 +91,11 @@
 
         function startCarousel(imageUrls, imageDescriptions)
         {
-            console.log(imageUrls);
-            console.log(imageDescriptions);
-
-            console.log('Set background to ' + imageUrls[0]);
             setBackground(imageUrls[0]);
-            console.log('Set description to ' + imageDescriptions[0]);
             setDescription(imageDescriptions[0]);
 
             var current = 0;
-            window.setInterval(function(){
-                console.log('start of anonymous setinterval function');
+            setInterval(function(){
                 if(current < imageUrls.length)
                 {
                     setBackground(imageUrls[current]);
