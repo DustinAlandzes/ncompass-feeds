@@ -75,7 +75,9 @@
   </div>
     <div id="description">
     </div>
+    <!--
     <script type="text/javascript" src="https://getfirebug.com/firebug-lite-debug.js"></script>
+    -->
     <script type="text/javascript" charset="utf-8">
 
         function setBackground(url)
