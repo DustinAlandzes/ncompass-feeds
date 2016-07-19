@@ -12,7 +12,7 @@ class FacebookFeed extends RSSFeed {
         $this->url = $url;
         $this->view = 'feeds.inoreader';
         $this->data = $this->download();
-    }
+    } 
 
 
     public function toArray()
@@ -42,4 +42,3 @@ class FacebookFeed extends RSSFeed {
         return 'https://graph.facebook.com/'.$id.'/picture';
     }
 }
-

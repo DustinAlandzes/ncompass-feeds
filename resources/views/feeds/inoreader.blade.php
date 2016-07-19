@@ -41,9 +41,7 @@
 
         #carousel
         {
-            width: 100%;
-            height: 100%;
-            min-height: 500px;
+            min-height: 600px;
         }
 
         #description
@@ -51,26 +49,30 @@
             @if(!$request->description)
                 visibility: hidden;
             @endif
-            height: 100%;
             width: 100%;
-            margin:20px;
-            vertical-align: middle;
+            margin:10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .image {
+          width: 100%;
         }
     </style>
 @stop
 
 @section('body')
     <div id="header"></div>
-    <div id="container" >
-      <div id="post">
-        <div id="carousel">
-            @foreach($feed as $item)
-                <div class="image" data-url="{{$item['url']}}" data-description="{{$item['description']}}">
-                </div>
-            @endforeach
-        </div>
+    <div id="container">
+    <div id="post">
+      <div id="carousel">
+          @foreach($feed as $item)
+              <div class="image" data-url="{{$item['url']}}" data-description="{{$item['description']}}">
+              </div>
+          @endforeach
       </div>
     </div>
+  </div>
     <div id="description">
     </div>
 
