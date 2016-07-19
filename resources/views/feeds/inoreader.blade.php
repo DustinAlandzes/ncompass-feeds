@@ -75,6 +75,7 @@
   </div>
     <div id="description">
     </div>
+    <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
     <script type="text/javascript" charset="utf-8">
 
         function setBackground(url)
@@ -86,7 +87,7 @@
 
         function setDescription(description)
         {
-            $('#description').text(description)
+            $('#description').html(description)
         }
 
         function startCarousel(imageUrls, imageDescriptions)
