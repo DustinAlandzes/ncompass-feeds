@@ -22,7 +22,6 @@
         #container {
           min-height:100%;
           min-width:100%;
-          background-color: rgba(0, 0, 0, .9)
         }
 
         #header {
@@ -32,7 +31,6 @@
         }
 
         #post {
-          background-color:#f6f7f9;
           text-align: center;
           width:75%;
           display: table;
@@ -41,7 +39,9 @@
 
         #carousel
         {
-            min-height: 600px;
+            height: 600px;
+            width: 100%;
+            background-size: cover;
         }
 
         #description
@@ -49,20 +49,25 @@
             @if(!$request->description)
                 visibility: hidden;
             @endif
-            width: 100%;
-            margin:10px;
+            width: 1000px;
+            margin: 0 auto;
             text-align: center;
             font-size: 30px;
         }
 
         .image {
           width: 100%;
+          height: 100%;
         }
     </style>
 @stop
 
 @section('body')
-    <div id="header"></div>
+    <div id="header">
+      <img
+      style="height:100%"
+      src="http://www.freeiconspng.com/uploads/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png">
+    </div>
     <div id="container">
     <div id="post">
       <div id="carousel">
@@ -80,6 +85,7 @@
         function setBackground(url)
         {
             $('#carousel').hide();
+            $('#carousel').css('background-size', '100% 100%');
             $('#carousel').css('background', 'url('+url+') no-repeat center center');
             $('#carousel').show();
         }
