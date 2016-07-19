@@ -101,7 +101,7 @@
             setDescription(imageDescriptions[0]);
 
             var current = 0;
-            setInterval(function(){
+            window.setInterval(function(){
                 if(current < imageUrls.length)
                 {
                     setBackground(imageUrls[current]);
@@ -116,7 +116,6 @@
         }
 
         $(document).ready(function() {
-            alert("script started");
             var urls = [], descriptions = [];
 
             $( ".image" ).each(function( index ) {
