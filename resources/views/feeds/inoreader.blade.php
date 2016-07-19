@@ -6,11 +6,44 @@
 
 @section('style')
     <style>
+
+        html body
+        {
+            height: 100%;
+            background: url({{$request->bg}}) no-repeat;
+            background-size: cover;
+            background-color: #e9ebee;
+            font-family: "San Francisco", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+            font-size:{{$request->fontsize}}px;
+            color: {{$request->fontcolor}};
+            overflow: hidden;
+        }
+
+        #container {
+          min-height:100%;
+          min-width:100%;
+          background-color: rgba(0, 0, 0, .9)
+        }
+
+        #header {
+          background-color:#3b5998;
+          height:42px;
+          width:100%;
+        }
+
+        #post {
+          background-color:#f6f7f9;
+          text-align: center;
+          width:75%;
+          display: table;
+          margin: 0 auto;
+        }
+
         #carousel
         {
-            margin-top:200px;
-            height: 460px; !important
-            background-size: 100%;
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
         }
 
         #description
@@ -18,34 +51,29 @@
             @if(!$request->description)
                 visibility: hidden;
             @endif
-            min-height: 200px;
-            max-height: 200px;
-            max-width: 640px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-
-        html body
-        {
             height: 100%;
-            background: url({{$request->bg}}) no-repeat;
-            background-size: cover;
-            font-size:{{$request->fontsize}}px;
-            color: {{$request->fontcolor}};
-            overflow: hidden;
+            width: 100%;
+            margin:20px;
+            vertical-align: middle;
         }
     </style>
 @stop
 
 @section('body')
-    <div id="carousel">
-        @foreach($feed as $item)
-            <div class="image" data-url="{{$item['url']}}" data-description="{{$item['description']}}">
-            </div>
-        @endforeach
+    <div id="header"></div>
+    <div id="container" >
+      <div id="post">
+        <div id="carousel">
+            @foreach($feed as $item)
+                <div class="image" data-url="{{$item['url']}}" data-description="{{$item['description']}}">
+                </div>
+            @endforeach
+        </div>
+      </div>
     </div>
     <div id="description">
     </div>
+
     <script type="text/javascript" charset="utf-8">
 
         function setBackground(url)
@@ -97,6 +125,4 @@
         });
 
     </script>
-    <!-- End Document
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 @stop

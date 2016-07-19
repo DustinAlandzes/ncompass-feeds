@@ -4,11 +4,17 @@ Description would go here
 
 ## Installation
 
-Installation would go here
+```
+  git clone https://github.com/f00-/ncompass-feeds.git
+  composer install
+  cp .env.example .env
+  php artisan key:generate
+  php -S localhost:8000 -t public
+```
 
 ## Usage
 After installing, you can start using different feeds:
-    
+
 _Example: Displaying a facebook feed (through inoreader)_
 ```
 http://news.app/?type=fb&url=http://www.inoreader.com/stream/user/1005646937/tag/Primal%20Juice%20and%20Smoothies/&time=2
@@ -23,11 +29,11 @@ _Example: Displaying a json feed, and limiting it to 3 items_
 ```
 http://news.app/?type=json&url=http://news.app/?url=http://news.google.com/news&type=atom&limit=3&time=2
 ```
-    
+
 ## Options
 Options are specified with URL parameters.
-    
-    
+
+
 ###Time (Delay)
 ```
     ?time=2
