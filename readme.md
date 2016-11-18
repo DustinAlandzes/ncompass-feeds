@@ -56,5 +56,5 @@ Options are specified with URL parameters.
 ###Background
 
 ```
-    ?background=example.com/image.png
+    ?bg=example.com/image.png
 ```
