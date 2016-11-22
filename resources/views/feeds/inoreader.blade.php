@@ -63,11 +63,6 @@
 @stop
 
 @section('body')
-    <div id="header">
-      <img
-      style="height:100%"
-      src="http://www.freeiconspng.com/uploads/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png">
-    </div>
     <div id="container">
     <div id="post">
       <div id="carousel">
